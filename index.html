@@ -131,24 +131,78 @@
 						<p class="fragment">Dunque NO, non c'è quasi nulla da configurare, è magico!</p>
 						<img style="border:0px" src="img/libremesh-logo.png" alt="Libre-Mesh logo">
 					</section>
-				</section>
 
-				<section>
 <!--    Nuova diapo     -->		<section>
 						<h2>Ad esempio cosa fa?</h2>
 						<p>Ad esempio gestisce il routing dinamico, fondamentale per la resilienza della rete.</p>
 						<img width="85%" name="MeshAnimation" src="img/MeshAnimation-ita-1st_frame.png" alt="Animazione rete mesh routing dinamico">
 					<p><a href="javascript:changeImage()">start</a></p>
 					</section>				
+				</section>
 
+				<section>
 <!--    Nuova diapo     -->		<section>
-						<h2></h2>
-						<p>
-						<a href=""></a>
-						</p>
-						<img src="" alt="">
+						<h2>Quali software gestiscono il routing?</h2>
+						<div class="fragment"><p>Ogni "isola" Ninux sceglie come gestire il proprio routing interno, il routing inter-isole (collegamenti VPN o diretti) si gestisce analogamente al traffico in inter-net (BGP).</p>
+						<img width="70%" src="img/bgp-small.jpg" alt="Routing tra isole"></div>
 					</section>
 
+<!--    Nuova diapo     -->		<section>
+						<h2>Libre-Mesh che usa?</h2>
+						<p>Ad esempio Libre-Mesh utilizza:
+						<ul><li>Batman-adv (layer 2, basato sui MAC address) a livello locale, ai client appare come uno switch di rete, i broadcast viaggiano.</li></ul></p>
+						<img src="img/batman-adv-switch.jpg" alt="Switch virtuale">
+					</section>
+
+<!--    Nuova diapo     -->		<section>
+						<h2>Libre-Mesh che usa?</h2>
+						<ul><li>BMX6 (layer 3, supporta IPv4, IPv6 e nella prossima versione anche IPsec) per collegare raggruppamenti di nodi.</li></ul></p>
+						<img width="50%" src="img/batman-adv-bmx6.jpg" alt="Batman-adv BMX6">
+						<p class="fragment">La combinazione dei due protocolli "scala" bene.</p>
+					</section>
+				</section>
+
+				<section>
+<!--    Nuova diapo     --> 		<section>
+						<h2>Che servizi mi dà Ninux?</h2>
+						<p>Ninux dà i servizi che i partecipanti portano in Ninux!</p>
+						<div class="fragment"><p>Ad esempio:</p>
+						<ul>
+							<li>Condivisione dati, archiviazione, backup</li>
+							<li>Server di gioco</li>
+							<li>Streaming di radio e tv locali</li>
+							<li>Telefonia VoIP, email, chat, videoconferenze</li>
+							<li>Social network locali e strumenti per la collaborazione</li>
+							<li>Accesso ad Internet (ma se nessuno lo condivide non c'è!!!)</li>
+							<li>...spazio alla fantasia!</li>
+						</ul>
+						</div>
+					</section>
+
+<!--    Nuova diapo     -->		<section>
+						<h2>Ma c'è la connessione ad internet?</h2>
+						<p>Lo scopo di Ninux <b><u><i>NON</i></u></b> è portare internet, bensì creare dal basso una rete decentralizzata. C'è internet solo se:</p>
+						<ul><li class="fragment">se qualcuno condivide parte della banda ADSL</li>
+
+						<li class="fragment">se bypassiamo i provider diventando loro pari, questo è successo a Roma: Ninux è entrata in un Neutral Access Point!</li>
+						<li class="fragment">se usiamo IPv6: ogni partecipante può gestire una sottorete di IPv6 pubblici</li></ul>
+						<img class="fragment" src="img/ipv6.jpg" alt="IPv6">
+					</section>
+
+<!--    Nuova diapo     -->		<section>
+						<h2>Ed è legale?</h2>
+						<p>Da pochi anni ma lo è.</p><p>Per approfondimenti: <a href="http://ninux.org/LeggiWireless">http://ninux.org/LeggiWireless</a></p>
+						<br /><br />
+						<h2>Ma fa male?</h2>
+						<p>Meno potente del cellulare (rispettando i limiti di legge),<br /> molto più lontana dalla testa di un cellulare.</p>
+					</section>
+				</section>
+
+				<section>
+					<img src="img/community.jpg" alt="Ninux Day 2013">
+					<p>Mappa della rete: <a href="http://map.ninux.org">map.ninux.org</a></p>
+					<p>Contatti: contatti@ninux.org oppure le mailing list: <a href="http://ml.ninux.org">ml.ninux.org</a>
+					<p>Ninux è a: Roma, Pisa, Viterbo, Udine, Vicenza, Mistretta, Firenze, Verona, Reggio Calabria, Catanzaro, Cosenza, Bologna, Siracusa, Trani... <div class="fragment"> E VENEZIA??</div></p>
 				</section>
 
 			</div>
@@ -163,7 +217,7 @@
 <!--    Nuova diapo     -->	<section>
 					<h2></h2>
 					<p>
-					<a href=""></a>
+					
 					</p>
 					<img src="" alt="">
 				</section>
@@ -173,7 +227,7 @@
 <!--    Nuova diapo     -->		<section>
 						<h2></h2>
 						<p>
-						<a href=""></a>
+						
 						</p>
 						<img src="" alt="">
 					</section>
