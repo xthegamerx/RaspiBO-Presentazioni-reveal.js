@@ -68,7 +68,7 @@
 							<li style="margin: 5px 0;" class="fragment">Performances!
 								<ul style="list-style-type: none;"><li style="font-size: smaller;">Per avere una connessione ganza coi nostri amici! Meno latenza, più banda!</li></ul></li>
 							<li style="margin: 5px 0;" class="fragment">Attivismo!
-								<ul style="list-style-type: none;"><li style="font-size: smaller; line-height: 1;">Libertà di comunicazione, censura e/o spegnimento totale impossibile, network neutrality, struttura fisica e gestione decentralizzata, più possibile open-source.</li></ul></li>
+								<ul style="list-style-type: none;"><li style="font-size: smaller; line-height: 1;">Libertà di comunicazione, censura e/o spegnimento totale impossibile, network neutrality, struttura fisica e gestione decentralizzata, software open-source.</li></ul></li>
 							<li style="margin: 5px 0;" class="fragment">Paranoia.
 								<ul style="list-style-type: none;"><li style="font-size: smaller;">Per riprendere il controllo dei nostri dati costruiamoci il nostro cloud!</li></ul></li>
 							<li style="margin: 5px 0;" class="fragment">Protezione civile.
@@ -149,6 +149,16 @@
 					</section>
 
 <!--    Nuova diapo     -->		<section>
+						<h2>Com'è configurata oggi Ninux?</h2>
+						<ul>
+						<li style="margin: 20px 0;">Roma, Firenze, Cosenza usano OLSRd con firmware Sburratore (AirOs based) e Scooreggione (OpenWrt based).</li>
+						<li style="margin: 20px 0;">Pisa usa BATMAN-adv con firmware eigenLab/eigenNet.</li>
+						<li style="margin: 20px 0;">Verona e Bologna usano il firmware Libre-Mesh.</li>
+						<li style="margin: 20px 0;">Le isole sono collegate tramite VPN Tinc con protocollo di routing BGP.</li>
+						</ul>
+					</section>
+
+<!--    Nuova diapo     -->		<section>
 						<h2>Libre-Mesh che usa?</h2>
 						<p>Ad esempio Libre-Mesh utilizza:
 						<ul><li>Batman-adv (layer 2, basato sui MAC address) a livello locale, ai client appare come uno switch di rete, i broadcast viaggiano.</li></ul></p>
@@ -157,25 +167,13 @@
 
 <!--    Nuova diapo     -->		<section>
 						<h2>Libre-Mesh che usa?</h2>
-						<ul><li>BMX6 (layer 3, supporta IPv4, IPv6 e dalla prossima versione anche IPsec) per collegare raggruppamenti di nodi.</li></ul></p>
+						<ul><li>BMX6 (layer 3, supporta IPv4 e IPv6) per collegare raggruppamenti di nodi.</li></ul></p>
 						<img width="50%" src="img/batman-adv-bmx6.jpg" alt="Batman-adv BMX6">
 						<p class="fragment">La combinazione dei due protocolli "scala" bene.</p>
-					</section>
-
-<!--    Nuova diapo     -->		<section>
-						<h2>Com'è configurata oggi Ninux?</h2>
-						<ul>
-						<li>Roma, Firenze, Cosenza usano OLSR con firmware Sburratore(AirOs Based) e Scooreggione (OwrtBased)</li>
-						<li>Pisa usa BATMAN con firmware Einglab</li>
-						<li>Le isole sono collegate tramite VPN Tinc con Protocollo di routing BGP </li>
-						</ul>
 					</section>
 				</section>
 
 				<section>
-
-
-
 <!--    Nuova diapo     --> 		<section>
 						<h2>Che servizi mi dà Ninux?</h2>
 						<p>Ninux dà i servizi che i partecipanti portano in Ninux!</p>
